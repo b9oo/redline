@@ -1,8 +1,7 @@
 namespace RedLine {
-    export function loadZone(zoneNumber: number) {
-        scene.setBackgroundColor(0x000000)  // Black theme
-        // Add tiles, platforms, etc.
-        tiles.setTilemap(tiles.createTilemap(...))  // Customize per zone
-        info.setScore(zoneNumber)
+    export function loadZone(zone: number) {
+        scene.setBackgroundColor(0x000000)
+        // Add your tilemap here later
+        console.log("Loaded zone " + zone)
     }
 }
