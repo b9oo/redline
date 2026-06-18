@@ -1,0 +1,21 @@
+{
+    "name": "redline-mechanics",
+    "version": "1.0.0",
+    "description": "Mechanics for Red Line-style games: dash, sword combat, zones, red/black theme",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "game": "*"
+    },
+    "files": [
+        "main.ts",
+        "enums.ts",
+        "player.ts",
+        "combat.ts",
+        "levels.ts"
+    ],
+    "preferredEditor": "ts",
+    "targetVersions": {
+        "target": "arcade"
+    }
+}
