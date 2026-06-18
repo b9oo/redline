@@ -1,7 +1,7 @@
 {
     "name": "redline-mechanics",
     "version": "1.0.0",
-    "description": "Mechanics for Red Line-style games: dash, sword combat, zones, red/black theme",
+    "description": "Red Line style mechanics - dash, sword, combat, zones",
     "license": "MIT",
     "dependencies": {
         "core": "*",
