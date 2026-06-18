@@ -1,18 +1,16 @@
 namespace RedLine {
-    export function spawnEnemy(x: number, y: number, kind: number) {
+    /**
+     * Spawn a basic enemy
+     */
+    export function spawnEnemy(x: number, y: number) {
         let enemy = sprites.create(img`
             . . . . . . 
             . 4 4 4 4 . 
             4 4 4 4 4 4 
             . 4 4 4 4 . 
             . . . . . . 
-        `, SpriteKind.Enemy)  // Black/red enemy
+        `, SpriteKind.Enemy)
         enemy.setPosition(x, y)
-        enemy.follow(RedLine.getPlayer(), 50)  // Basic AI
-    }
-
-    // Boss example placeholder
-    export function createBoss() {
-        // Larger sprite, more HP, special attacks
+        enemy.follow(RedLine.getPlayer(), 60)
     }
 }
